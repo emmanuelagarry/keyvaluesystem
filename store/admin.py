@@ -2,6 +2,6 @@ from django.contrib import admin
 
 # from .models import Store
 
-from .models import Store, Entry
+from .models import Store
 
-admin.site.register([Store, Entry])
+admin.register(Store)
