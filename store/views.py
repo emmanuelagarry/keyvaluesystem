@@ -18,6 +18,7 @@ class StoreView(APIView):
     def post(self, request, format=None):
         data = request.data
         serializer = StoreSerializer(data=data)
+        print(data)
         if serializer.is_valid():
             store = Store(**data)
             store.save()

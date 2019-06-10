@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'store',
     'rest_framework_mongoengine',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
